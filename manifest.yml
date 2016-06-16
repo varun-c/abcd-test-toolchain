@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: abcd-1234
+  host: abcd-1234
+  disk_quota: 1024M
+  services:
+  - abcd-1234-AdvancedMobileAccess
+  - abcd-1234-imfpush
+  - abcd-1234-cloudantNoSQLDB
